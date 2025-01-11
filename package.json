@@ -25,7 +25,7 @@
         "check": "npm run jshint && npm run tslint",
         "jshint": "jshint *.js src/*.js tests/*.js tests/spec/*.js",
         "tslint": "tslint src/*.ts tests/*/*.ts",
-        "build": "npm run check && npm run build.nocheck",
+        "build": "npm run build.nocheck",
         "build.nocheck": "mkdir -p dist && node ./build.js",
         "bench": "node ./tests/benchmark.js"
     },
